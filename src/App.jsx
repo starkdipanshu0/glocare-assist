@@ -4,10 +4,12 @@ import './App.css'
 
 
 import About from './pages/About';
-import Contect from './pages/Contect';
+import Contact from './pages/Contact';
 import AppLayout from './components/Layout/AppLayout';
 import Notfound from './pages/Notfound';
 import Home from './pages/Home/Home';
+import Services from './pages/Services/Services';
+import Blogs from './pages/Blogs';
 
 const router = createBrowserRouter([
 
@@ -24,8 +26,16 @@ const router = createBrowserRouter([
         element: <About/>,
       },
       {
-        path: "/contect",
-        element: <Contect/>,
+        path: "/contact",
+        element: <Contact/>,
+      },
+      {
+        path: "/services",
+        element: <Services/>,
+      },
+      {
+        path: "/blogs",
+        element: <Blogs/>,
       },
       {
         path: "/*",
