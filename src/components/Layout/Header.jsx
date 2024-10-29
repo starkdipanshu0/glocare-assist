@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-
+import logo from '../../assets/image/logo-side-removebg-preview.png'
 function Header() {
   const [isVisible, setIsVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);  // State for mobile menu
@@ -24,10 +24,11 @@ function Header() {
 
   return (
     <header className={`fixed top-0 w-full z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-      <div className='flex items-center justify-between bg-slate-950 p-4 opacity-90'>
+      <div className='flex items-center justify-between bg-transparent p-4 '>
         {/* Logo */}
         <div className='text-yellow-200 font-serif text-2xl md:text-4xl font-extrabold'>
-          <h1>Glocare Assist</h1>
+          <img className='h-16 w-60' src={logo} alt="" />
+          {/* <h1>Glocare Assist</h1> */}
         </div>
 
         {/* Hamburger Menu for Mobile */}

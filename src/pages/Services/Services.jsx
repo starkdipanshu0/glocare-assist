@@ -2,7 +2,7 @@ import React from 'react'
 
 function Services() {
     return (
-      <div className="p-6">
+      <div className="p-6 bg-green-500">
         {/* Header */}
         <section className="my-12 text-center">
           <h1 className="text-4xl font-bold animate-fadeIn">Our Services</h1>

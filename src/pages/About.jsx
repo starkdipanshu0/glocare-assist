@@ -1,11 +1,11 @@
 import React from 'react'
 
 // import heroImage from '../../assets/image/herosection-2.jpg';
-import branding from '../assets/image/Branding.jpg';
+import group_1 from '../assets/image/group-1.webp';
 
 function About() {
   return (
-    <div className="p-6">
+    <div className="p-6 ">
       {/* About Glocare Assist Section */}
       <section className="my-12">
         <div className="container mx-auto flex flex-col items-center text-center">
@@ -23,14 +23,14 @@ function About() {
       </section>
 
       {/* Mission Section */}
-      <section className="my-12">
+      <section className="my-12 ">
         <div className="container mx-auto flex flex-col-reverse md:flex-row items-center">
           {/* Placeholder for Mission Image */}
           <div className="md:w-1/2 h-64 bg-gray-200 animate-slideInLeft">
-          <img className='md:w-1/2 h-64 bg-gray-200 animate-slideInLeft' src={branding} alt="BigCo Inc. logo"/>
+          <img className='h-80 bg-gray-200 animate-slideInLeft' src={group_1} alt="BigCo Inc. logo"/>
             {/* Add Mission Image */}
           </div>
-          <div className="md:w-1/2 md:pl-8 text-center md:text-left opacity-0 animate-fadeIn delay-300">
+          <div className="md:w-1/2 md:pl-8 text-center md:text-left opacity-0 animate-fadeIn delay-300 ">
             <h2 className="text-3xl font-bold">Our Mission</h2>
             <p className="text-lg mt-4 text-gray-700">
               Our mission is simple: To provide innovative, result-driven sales strategies and cutting-edge IT solutions that help businesses thrive. We believe that the right combination of technology and sales strategies can propel any business forward, and we are here to make that happen.
