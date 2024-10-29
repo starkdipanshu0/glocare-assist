@@ -24,7 +24,7 @@ function Header() {
 
   return (
     <header className={`fixed top-0 w-full z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-      <div className='flex items-center justify-between bg-transparent p-4 '>
+      <div className='flex items-center justify-between bg-blue-600 opacity-90 p-4 '>
         {/* Logo */}
         <div className='text-yellow-200 font-serif text-2xl md:text-4xl font-extrabold'>
           <img className='h-16 w-60' src={logo} alt="" />
