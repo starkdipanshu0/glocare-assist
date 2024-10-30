@@ -1,18 +1,22 @@
 import React from 'react'
 
 // import heroImage from '../../assets/image/herosection-2.jpg';
-import group_1 from '../assets/image/group-1.webp';
+// import group_1 from '../assets/image/group-1.webp';
+import group from '../assets/image/about/mission.svg'
+import mission from '../assets/image/about/mission-1.svg'
+
 
 function About() {
   return (
-    <div className="p-6 ">
+    <div className="pb-6 pt-6 pl-6 pr-6">
       {/* About Glocare Assist Section */}
-      <section className="my-12">
+      <section className="mb-12">
         <div className="container mx-auto flex flex-col items-center text-center">
           {/* Placeholder for Hero Image */}
-          <div className="w-full h-64 bg-gray-200 animate-fadeIn">
-            {/* Add Hero Image */}
-          </div>
+          {/* <div className="w-full h-70 bg-gray-200 animate-fadeIn">
+           
+            
+          </div> */}
           <h1 className="text-4xl font-extrabold mt-6 opacity-0 animate-fadeIn delay-150">
             About Glocare Assist
           </h1>
@@ -24,12 +28,12 @@ function About() {
 
       {/* Mission Section */}
       <section className="my-12 ">
-        <div className="container mx-auto flex flex-col-reverse md:flex-row items-center">
+        <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-center">
           {/* Placeholder for Mission Image */}
-          <div className="md:w-1/2 h-64 bg-gray-200 animate-slideInLeft">
-          <img className='h-80 bg-gray-200 animate-slideInLeft' src={group_1} alt="BigCo Inc. logo"/>
+          
+          <img className='h-80  animate-slideInLeft' src={mission} alt="BigCo Inc. logo"/>
             {/* Add Mission Image */}
-          </div>
+         
           <div className="md:w-1/2 md:pl-8 text-center md:text-left opacity-0 animate-fadeIn delay-300 ">
             <h2 className="text-3xl font-bold">Our Mission</h2>
             <p className="text-lg mt-4 text-gray-700">
@@ -105,9 +109,10 @@ function About() {
             </p>
           </div>
           {/* Placeholder for Vision Image */}
-          <div className="md:w-1/2 h-64 bg-gray-200 animate-slideInRight">
+          
             {/* Add Vision Image */}
-          </div>
+            <img src={group} alt="" />
+          
         </div>
       </section>
 

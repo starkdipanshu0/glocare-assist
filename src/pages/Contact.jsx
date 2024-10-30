@@ -1,5 +1,5 @@
 import React from "react";
-
+import contact from "../assets/image/contact.png"
 function Contact() {
   return (
     <div className="p-6">
@@ -55,10 +55,8 @@ function Contact() {
 
             {/* Placeholder for Image */}
             <div className="w-full md:w-1/2 mt-12 md:mt-0 md:ml-6">
-              <div className="w-full h-64 bg-gray-300 rounded-lg flex items-center justify-center animate-fadeIn delay-200">
-                {/* Add your image here */}
-                <p className="text-gray-600">Image Placeholder</p>
-              </div>
+            
+             <img src={contact} alt="" />
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ import image10 from "../../assets/image/about.png"
 
 
 import HeadingGlow from './HeadingGlow';
-import ServiceCard from './ServiceCard';
+import ServiceCard from '../../components/UI/ServiceCard';
 
 
 
@@ -155,7 +155,7 @@ const textColors = [
             />
             {/* Additional form fields */}
             <button
-              type="submit"
+              type="submit"ss
               className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300"
             >
               Send Message

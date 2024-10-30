@@ -10,7 +10,7 @@ function ServiceCard({image,heading,content}) {
     
 
 
-       <img src={image} alt="websitw" style={{objectFit:"contain"}}/>
+       <img src={image} alt="websitw" />
 
   
     <p>{content}</p>

@@ -7,10 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'amethyst': '#9b59b6',
-        'wisteria': '#8e44ad',
-        'cloud': '#ecf0f1',
-        'silver': '#bdc3c7',
+        'customeBlue':'#22718F',
       },
       keyframes: {
         fadeIn: {

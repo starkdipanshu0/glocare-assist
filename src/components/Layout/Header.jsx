@@ -24,7 +24,7 @@ function Header() {
 
   return (
     <header className={`fixed top-0 w-full z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-      <div className='flex items-center justify-between bg-blue-600 opacity-90 p-4 '>
+      <div className='flex items-center justify-between bg-transparent opacity-90 p-4 '>
         {/* Logo */}
         <div className='text-yellow-200 font-serif text-2xl md:text-4xl font-extrabold'>
           <img className='h-16 w-60' src={logo} alt="" />
@@ -41,38 +41,39 @@ function Header() {
         {/* Navigation Links */}
         <nav className={`flex-col md:flex md:flex-row md:items-center absolute md:static left-0 top-16 w-full md:w-auto bg-slate-950 md:bg-transparent p-4 md:p-0 transition-all duration-300 ease-in ${menuOpen ? 'block' : 'hidden'}`}>
           <ul className='flex flex-col md:flex-row md:space-x-4 text-center'>
-            <li className='hover:bg-slate-800 p-2 text-cyan-50 text-lg md:text-xl'>
+            <li className=' p-2 text-cyan-50 text-lg md:text-xl'>
               <NavLink 
                 to='/' 
-                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-cyan-50'}>
+                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customeBlue'}>
                 Home
               </NavLink>
+              
             </li>
-            <li className='hover:bg-slate-800 p-2 text-cyan-50 text-lg md:text-xl'>
+            <li className=' p-2 text-cyan-50 text-lg md:text-xl'>
               <NavLink 
                 to='/About' 
-                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-cyan-50'}>
+                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customeBlue'}>
                 About Us
               </NavLink>
             </li>
-            <li className='hover:bg-slate-800 p-2 text-cyan-50 text-lg md:text-xl'>
+            <li className=' p-2 text-cyan-50 text-lg md:text-xl'>
               <NavLink 
                 to='/Services' 
-                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-cyan-50'}>
+                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customeBlue'}>
                 Services
               </NavLink>
             </li>
-            <li className='hover:bg-slate-800 p-2 text-cyan-50 text-lg md:text-xl'>
+            <li className=' p-2 text-cyan-50 text-lg md:text-xl'>
               <NavLink 
                 to='/Blogs' 
-                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-cyan-50'}>
+                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customeBlue'}>
                 Blogs
               </NavLink>
             </li>
-            <li className='hover:bg-slate-800 p-2 text-cyan-50 text-lg md:text-xl'>
+            <li className=' p-2 text-cyan-50 text-lg md:text-xl'>
               <NavLink 
                 to='/Contact' 
-                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-cyan-50'}>
+                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customeBlue'}>
                 Contact Us
               </NavLink>
             </li>
