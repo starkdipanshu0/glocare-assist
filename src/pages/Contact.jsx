@@ -24,7 +24,7 @@ function Contact() {
                   <label className="block text-lg font-medium">Name</label>
                   <input
                     type="text"
-                    className="w-full p-3 mt-1 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400"
+                    className="w-full p-3 mt-1 border border-customBlue rounded-lg focus:ring-2 focus:ring-yellow-400"
                     placeholder="Your name"
                   />
                 </div>
@@ -32,21 +32,21 @@ function Contact() {
                   <label className="block text-lg font-medium">Email</label>
                   <input
                     type="email"
-                    className="w-full p-3 mt-1 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400"
+                    className="w-full p-3 mt-1 border border-customBlue rounded-lg focus:ring-2 focus:ring-yellow-400"
                     placeholder="Your email"
                   />
                 </div>
                 <div>
                   <label className="block text-lg font-medium">Message</label>
                   <textarea
-                    className="w-full p-3 mt-1 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400"
+                    className="w-full p-3 mt-1 border border-customBlue rounded-lg focus:ring-2 focus:ring-yellow-400"
                     rows="4"
                     placeholder="Write your message here..."
                   ></textarea>
                 </div>
                 <button
                   type="submit"
-                  className="w-full p-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition-all duration-300"
+                  className="w-full p-3 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 transition-all duration-300"
                 >
                   Submit
                 </button>

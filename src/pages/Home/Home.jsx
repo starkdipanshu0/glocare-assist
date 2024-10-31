@@ -20,6 +20,7 @@ import image10 from "../../assets/image/about.png"
 
 import HeadingGlow from './HeadingGlow';
 import ServiceCard from '../../components/UI/ServiceCard';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -73,12 +74,12 @@ const textColors = [
   <p className={`text-xl sm:text-2xl font-bold mb-8  opacity-0 animate-fadeIn delay-150 ${textColors[currentImageIndex]}`}>
     Your Trusted Partner in Sales and IT Excellence
   </p>
-  <a
-    href="#services"
+  <NavLink
+    to="/services"
     className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full text-lg transition-colors duration-300 opacity-0 animate-slideInUp delay-300"
-  >
+    >  
     Explore Our Services
-  </a>
+    </NavLink>
 </div>
     </section>
 
@@ -92,7 +93,7 @@ const textColors = [
           {/* Know More Button */}
           <a
             href="/about"
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full text-lg transition-colors duration-300"
+            className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full text-lg transition-colors duration-300 opacity-0 animate-slideInUp delay-300"
           >
             Know More
           </a>
@@ -121,13 +122,19 @@ const textColors = [
         <div className='text-3xl font-bold'>SERVICES</div>
         <div className='flex justify-center items-center gap-10'>
         <ServiceCard image={image5} heading={"Web Development"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
-        <ServiceCard image={image6} heading={"Web Development"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
-        <ServiceCard image={image7} heading={"Web Development"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
-        <ServiceCard image={image8} heading={"Web Development"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
-        <ServiceCard image={image9} heading={"Web Development"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
+        <ServiceCard image={image6} heading={"App Develoopment"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
+        <ServiceCard image={image7} heading={"Digital Marketing"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
+        <ServiceCard image={image8} heading={"Social Media Management"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
+        <ServiceCard image={image9} heading={"Virtual Assistance"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
         
 
         </div>
+        <NavLink
+    to="/services"
+    className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full text-lg transition-colors duration-300 opacity-0 animate-slideInUp delay-300"
+    >  
+    Explore More Services
+    </NavLink>
       </section>
 
       {/* Contact Us Section */}

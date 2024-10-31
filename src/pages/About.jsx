@@ -8,7 +8,7 @@ import mission from '../assets/image/about/mission-1.svg'
 
 function About() {
   return (
-    <div className="pb-6 pt-6 pl-6 pr-6">
+    <div className="p-6">
       {/* About Glocare Assist Section */}
       <section className="mb-12">
         <div className="container mx-auto flex flex-col items-center text-center">
@@ -21,7 +21,9 @@ function About() {
             About Glocare Assist
           </h1>
           <p className="text-xl text-gray-700 mt-4 opacity-0 animate-fadeIn delay-300 max-w-3xl">
-            At Glocare Assist, we are dedicated to empowering businesses through a unique blend of sales solutions and IT services. Founded with a vision to help companies optimize their operations and grow in the modern marketplace, Glocare Assist is your trusted partner in achieving sustainable success.
+          Our company Glocare Assist, specializes at fulfilling your expectations of creating a successful brand in the sphere of digital services. We offer services from general administrative support to assist with day to day tasks to software development companies to design mobile applications, websites and software programs to captivate your target market effectively. Our services cover e-commerce web design building efficient, secure and conversion-oriented online shops and recruitment for RPOs to provide employees with perfect matches for your company. With our CRM services, your business will do a better job of relating with its customers while, with our team of digital marketers, your business will increase in attractiveness to the target market due to better SEO, social media, and content services. Our experience in web and graphic design guarantees an aesthetic appeal that makes your brand stand out in addition to a smooth interface. 
+Welcome to Glocare Assist, where we combine ideas, skills, and specific focus to add value, to help your business succeed in this dynamic world of commerce.
+
           </p>
         </div>
       </section>

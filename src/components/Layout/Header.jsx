@@ -44,7 +44,7 @@ function Header() {
             <li className=' p-2 text-cyan-50 text-lg md:text-xl'>
               <NavLink 
                 to='/' 
-                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customeBlue'}>
+                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customBlue'}>
                 Home
               </NavLink>
               
@@ -52,28 +52,28 @@ function Header() {
             <li className=' p-2 text-cyan-50 text-lg md:text-xl'>
               <NavLink 
                 to='/About' 
-                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customeBlue'}>
+                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customBlue'}>
                 About Us
               </NavLink>
             </li>
             <li className=' p-2 text-cyan-50 text-lg md:text-xl'>
               <NavLink 
                 to='/Services' 
-                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customeBlue'}>
+                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customBlue'}>
                 Services
               </NavLink>
             </li>
             <li className=' p-2 text-cyan-50 text-lg md:text-xl'>
               <NavLink 
                 to='/Blogs' 
-                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customeBlue'}>
+                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customBlue'}>
                 Blogs
               </NavLink>
             </li>
             <li className=' p-2 text-cyan-50 text-lg md:text-xl'>
               <NavLink 
                 to='/Contact' 
-                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customeBlue'}>
+                className={({ isActive }) => isActive ? 'text-yellow-400' : 'text-customBlue'}>
                 Contact Us
               </NavLink>
             </li>

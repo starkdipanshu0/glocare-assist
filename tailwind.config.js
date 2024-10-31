@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'customeBlue':'#22718F',
+        'customBlue':'#22718F',
       },
       keyframes: {
         fadeIn: {
