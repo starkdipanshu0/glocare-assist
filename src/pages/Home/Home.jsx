@@ -122,10 +122,10 @@ const textColors = [
         <div className='text-3xl font-bold'>SERVICES</div>
         <div className='flex justify-center items-center gap-10'>
         <ServiceCard image={image5} heading={"Web Development"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
-        <ServiceCard image={image6} heading={"App Develoopment"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
-        <ServiceCard image={image7} heading={"Digital Marketing"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
-        <ServiceCard image={image8} heading={"Social Media Management"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
-        <ServiceCard image={image9} heading={"Virtual Assistance"} content={"Building responsive, modern, and scalable websites tailored to your business needs."}/>
+        <ServiceCard image={image6} heading={"App Develoopment"} content={"Custom mobile application development for iOS and Android platforms."}/>
+        <ServiceCard image={image7} heading={"Digital Marketing"} content={"Online marketing strategies, including SEO, SEM, and content marketing."}/>
+        <ServiceCard image={image8} heading={"Social Media Management"} content={"Managing your brand presence and engagement across social media platforms."}/>
+        <ServiceCard image={image9} heading={"Virtual Assistance"} content={"Crafting email campaigns to engage customers and nurture leads."}/>
         
 
         </div>
